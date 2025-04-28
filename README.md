@@ -11,4 +11,4 @@
 # サーバー
 
 - さくらのVPS　仮想2core 1Gメモリ
-- [構成図](./server.drawio)
+- [構成図](./server.png)
