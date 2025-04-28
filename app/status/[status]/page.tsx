@@ -60,10 +60,10 @@ export function generateMetadata({
   const statusObj = statuses[params.status as unknown as keyof typeof statuses];
 
   return {
-    title: `${statusObj.code} ${statusObj.message} | HTTP Cats`,
+    title: `${statusObj.code} ${statusObj.message} | HTTP Cats version Omochi`,
     description: `HTTP Cat for status ${statusObj.code} ${statusObj.message}`,
     openGraph: {
-      title: `${statusObj.code} ${statusObj.message} | HTTP Cats`,
+      title: `${statusObj.code} ${statusObj.message} | HTTP Cats version Omochi`,
       images: [
         {
           url: `https://http.cat/${statusObj.code}.jpg`,
@@ -74,7 +74,7 @@ export function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       site: `https://http.cat/status/${statusObj.code}`,
-      title: `${statusObj.code} ${statusObj.message} | HTTP Cats`,
+      title: `${statusObj.code} ${statusObj.message} | HTTP Cats version Omochi`,
       images: [`https://http.cat/${statusObj.code}`],
     },
   };

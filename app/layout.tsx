@@ -13,31 +13,31 @@ export const metadata: Metadata = {
       { rel: 'apple-touch-icon-precomposed', url: '/apple-touch-icon.png' },
     ],
   },
-  title: 'HTTP Cats',
+  title: 'HTTP Cats version Omochi',
   description:
-    'An API for the awesome HTTP Cats! Use it in your website to show funny error messages.',
+    'An API for the awesome HTTP Cats version Omochi! Use it in your website to show funny error messages.',
   keywords:
-    'http, cats, http cats, http status cats, status cats, api, lolcats, error',
+    'http, cats, HTTP Cats version Omochi, http status cats, status cats, api, lolcats, error',
   authors: [{ name: 'Rogério Vicente', url: 'https://github.com/rogeriopvl' }],
   openGraph: {
     type: 'website',
-    title: 'HTTP Cats',
+    title: 'HTTP Cats version Omochi',
     url: 'https://http.cat',
     images: [
       {
         url: 'https://http.cat/100.jpg',
-        alt: 'HTTP Cats',
+        alt: 'HTTP Cats version Omochi',
       },
     ],
     siteName: 'HTTP Status Cats API',
-    description: 'API for HTTP Cats',
+    description: 'API for HTTP Cats version Omochi',
   },
   twitter: {
     card: 'summary_large_image',
     site: 'https://http.cat',
     creator: '@rogeriopvl',
-    title: 'HTTP Cats',
-    description: 'API for HTTP Cats',
+    title: 'HTTP Cats version Omochi',
+    description: 'API for HTTP Cats version Omochi',
     images: ['https://http.cat/100'],
   },
 };

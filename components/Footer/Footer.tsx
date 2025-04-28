@@ -22,6 +22,7 @@ const Footer = ({ t }: FooterProps) => {
 
   return (
     <div className={styles.container}>
+      <div>Created based on the ↓following↓</div>
       <div className={styles.social}>
         <FacebookButton />
         <GithubButton />
@@ -39,8 +40,8 @@ const Footer = ({ t }: FooterProps) => {
         <a href="https://twitter.com/rogeriopvl">@rogeriopvl</a>
       </p>
       <p>
-        {t.IMAGES_BY} Tomomi Imura (
-        <a href="https://twitter.com/girlie_mac">@girlie_mac</a>)
+        {t.IMAGES_BY} Hisho Suzuki (
+        <a href="https://github.com/hisho-123">@github</a>)
       </p>
 
       <p>
